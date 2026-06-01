@@ -35,7 +35,3 @@ This application allows users to add, update, delete, and manage contacts with n
 #### Using IDE:
 1. Open the project in your IDE
 2. Make sure JavaFX libraries are added (if required)
-3. Run `MainPhonecontactUI.java`
-
-#### Using Terminal:
-```bash
