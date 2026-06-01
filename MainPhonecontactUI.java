@@ -30,11 +30,11 @@ public class MainPhonecontactUI extends Application {
     @Override
     public void start(Stage stage) {
 
-        // ===== TITLE =====
+        
         Label title = new Label("Phone Contact Manager");
         title.setStyle("-fx-font-size: 22px; -fx-font-weight: bold;");
 
-        // ===== INPUT FIELDS =====
+        
         TextField nameField = new TextField();
         nameField.setPromptText("Enter Name");
 
@@ -44,7 +44,7 @@ public class MainPhonecontactUI extends Application {
         TextField emailField = new TextField();
         emailField.setPromptText("Enter Email");
 
-        // ===== BUTTONS =====
+      
         Button addBtn = new Button("Add");
         Button updateBtn = new Button("Update");
         Button deleteBtn = new Button("Delete");
@@ -55,7 +55,7 @@ public class MainPhonecontactUI extends Application {
         deleteBtn.setPrefWidth(100);
         clearBtn.setPrefWidth(100);
 
-        // ===== TABLE VIEW =====
+     
         table = new TableView<>();
 
         TableColumn<Contact, String> nameCol =
@@ -80,7 +80,7 @@ public class MainPhonecontactUI extends Application {
 
         table.getColumns().addAll(nameCol, phoneCol, emailCol);
 
-        // ===== ADD BUTTON ACTION =====
+       
         addBtn.setOnAction(e -> {
 
             String name = nameField.getText();
