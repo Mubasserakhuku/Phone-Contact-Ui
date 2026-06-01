@@ -20,10 +20,10 @@ import javafx.stage.Stage;
 
 
 public class MainPhonecontactUI extends Application {
-    // TableView
+   
     private TableView<Contact> table;
 
-    // Data List
+    
     private ObservableList<Contact> contactList =
             FXCollections.observableArrayList();
 
