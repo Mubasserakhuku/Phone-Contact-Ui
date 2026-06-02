@@ -1,4 +1,5 @@
-
+// ===== Part 1 (Your code) =====
+// UI setup, main frame
 package main.phonecontactui;
 
 import javafx.application.Application;
@@ -107,7 +108,13 @@ public class MainPhonecontactUI extends Application {
             }
         });
 
+// ===== Part 2 (Layama09) =====
+// add contact logic
 
-    
+       
+
+// ===== Part 3 (srabone) =====
+// update/delete/search logic
+
   
 
