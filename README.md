@@ -31,6 +31,6 @@ This application allows users to add, update, delete, and manage contacts with n
 - IDE (NetBeans / IntelliJ / Eclipse) or terminal setup with JavaFX
 
 ### 2. Steps
-#### Using IDE:
+Using IDE:
 1. Open the project in your IDE
 2. Make sure JavaFX libraries are added (if required)
