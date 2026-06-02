@@ -1,7 +1,3 @@
-Here is a clean, comprehensive, and professional `README.md` file designed for your project based exactly on the code you provided.
-
----
-
 # Phone Contact Manager
 
 A desktop-based JavaFX application that acts as a simple Phone Contact Manager. This application allows users to store, view, update, and delete contact details (Name, Phone Number, and Email) through an intuitive and clean graphical user interface (GUI).
